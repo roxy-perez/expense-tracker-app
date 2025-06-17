@@ -14,6 +14,8 @@
 		8083E10B2E01BDD2007337C1 /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E10A2E01BDD2007337C1 /* ExpenseTrackerTests.swift */; };
 		8083E1152E01BDD2007337C1 /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E1142E01BDD2007337C1 /* ExpenseTrackerUITests.swift */; };
 		8083E1172E01BDD2007337C1 /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E1162E01BDD2007337C1 /* ExpenseTrackerUITestsLaunchTests.swift */; };
+		8083E1262E01D406007337C1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E1252E01D406007337C1 /* Extensions.swift */; };
+		80B5274C2E01E72A00BE6D7E /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5274B2E01E72A00BE6D7E /* TransactionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8083E1102E01BDD2007337C1 /* ExpenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8083E1142E01BDD2007337C1 /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		8083E1162E01BDD2007337C1 /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8083E1252E01D406007337C1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		80B5274B2E01E72A00BE6D7E /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 			children = (
 				8083E0F92E01BDD0007337C1 /* ExpenseTrackerApp.swift */,
 				8083E0FB2E01BDD0007337C1 /* ContentView.swift */,
+				8083E1252E01D406007337C1 /* Extensions.swift */,
 				8083E0FD2E01BDD1007337C1 /* Assets.xcassets */,
 				8083E0FF2E01BDD1007337C1 /* Preview Content */,
+				80B5274B2E01E72A00BE6D7E /* TransactionModel.swift */,
 			);
 			path = ExpenseTracker;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B5274C2E01E72A00BE6D7E /* TransactionModel.swift in Sources */,
 				8083E0FC2E01BDD0007337C1 /* ContentView.swift in Sources */,
+				8083E1262E01D406007337C1 /* Extensions.swift in Sources */,
 				8083E0FA2E01BDD0007337C1 /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
