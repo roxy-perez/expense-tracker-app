@@ -16,6 +16,8 @@
 		8083E1172E01BDD2007337C1 /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E1162E01BDD2007337C1 /* ExpenseTrackerUITestsLaunchTests.swift */; };
 		8083E1262E01D406007337C1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E1252E01D406007337C1 /* Extensions.swift */; };
 		80B5274C2E01E72A00BE6D7E /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5274B2E01E72A00BE6D7E /* TransactionModel.swift */; };
+		80C7DB8B2E01EFAE00EC3602 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7DB8A2E01EF9F00EC3602 /* PreviewData.swift */; };
+		80C7DB8D2E01F1A400EC3602 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7DB8C2E01F1A400EC3602 /* TransactionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		8083E1162E01BDD2007337C1 /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8083E1252E01D406007337C1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		80B5274B2E01E72A00BE6D7E /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		80C7DB8A2E01EF9F00EC3602 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		80C7DB8C2E01F1A400EC3602 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				8083E0FD2E01BDD1007337C1 /* Assets.xcassets */,
 				8083E0FF2E01BDD1007337C1 /* Preview Content */,
 				80B5274B2E01E72A00BE6D7E /* TransactionModel.swift */,
+				80C7DB8C2E01F1A400EC3602 /* TransactionRow.swift */,
 			);
 			path = ExpenseTracker;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 		8083E0FF2E01BDD1007337C1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				80C7DB8A2E01EF9F00EC3602 /* PreviewData.swift */,
 				8083E1002E01BDD1007337C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -197,7 +203,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					8083E0F52E01BDD0007337C1 = {
 						CreatedOnToolsVersion = 15.2;
@@ -263,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C7DB8B2E01EFAE00EC3602 /* PreviewData.swift in Sources */,
 				80B5274C2E01E72A00BE6D7E /* TransactionModel.swift in Sources */,
 				8083E0FC2E01BDD0007337C1 /* ContentView.swift in Sources */,
+				80C7DB8D2E01F1A400EC3602 /* TransactionRow.swift in Sources */,
 				8083E1262E01D406007337C1 /* Extensions.swift in Sources */,
 				8083E0FA2E01BDD0007337C1 /* ExpenseTrackerApp.swift in Sources */,
 			);
@@ -338,6 +346,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5XVRAL5V3A;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -401,6 +410,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5XVRAL5V3A;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -430,7 +440,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExpenseTracker/Preview Content\"";
-				DEVELOPMENT_TEAM = 5XVRAL5V3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,7 +468,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExpenseTracker/Preview Content\"";
-				DEVELOPMENT_TEAM = 5XVRAL5V3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -483,11 +491,9 @@
 		8083E11E2E01BDD2007337C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5XVRAL5V3A;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -503,11 +509,9 @@
 		8083E11F2E01BDD2007337C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5XVRAL5V3A;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -523,10 +527,8 @@
 		8083E1212E01BDD2007337C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5XVRAL5V3A;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.roxydesign.ExpenseTrackerUITests;
@@ -541,10 +543,8 @@
 		8083E1222E01BDD2007337C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5XVRAL5V3A;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.roxydesign.ExpenseTrackerUITests;

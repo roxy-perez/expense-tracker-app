@@ -19,7 +19,6 @@ struct ContentView: View {
                 }
                 .padding()
                 .frame(maxWidth: .infinity, alignment: .center)
-                
             }
             .background(Color.appBackground)
             .navigationBarTitleDisplayMode(.inline)
