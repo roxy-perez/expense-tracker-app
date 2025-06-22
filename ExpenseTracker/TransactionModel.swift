@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import SwiftUIFontIcon
 
-struct Transaction: Identifiable, Decodable {
+struct Transaction: Identifiable, Decodable, Hashable {
     let id: Int
     let date: String
     let institution: String
@@ -34,4 +35,11 @@ struct Transaction: Identifiable, Decodable {
 enum TransactionType: String {
     case credit = "credit"
     case debit = "debit"
+}
+
+struct Category{
+    let id: Int
+    let name: String
+    let icon: FontAwesomeCode
+    var mainCategoryId: Int?
 }

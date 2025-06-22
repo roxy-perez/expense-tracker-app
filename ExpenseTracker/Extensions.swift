@@ -20,6 +20,8 @@ extension DateFormatter {
         print ("Initializing DateFormatter")
         let formatter = DateFormatter()
         formatter.dateFormat = "dd/MM/yyyy"
+        formatter.locale = Locale(identifier: "es_ES")
+        print(formatter)
         return formatter
     }()
 }

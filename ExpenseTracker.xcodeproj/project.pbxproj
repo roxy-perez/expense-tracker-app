@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800114742E08282200E97FE2 /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800114732E08282200E97FE2 /* RecentTransactionList.swift */; };
 		8083E0FA2E01BDD0007337C1 /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E0F92E01BDD0007337C1 /* ExpenseTrackerApp.swift */; };
 		8083E0FC2E01BDD0007337C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E0FB2E01BDD0007337C1 /* ContentView.swift */; };
 		8083E0FE2E01BDD1007337C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8083E0FD2E01BDD1007337C1 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		800114732E08282200E97FE2 /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 		8083E0F62E01BDD0007337C1 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8083E0F92E01BDD0007337C1 /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		8083E0FB2E01BDD0007337C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				8083E0F92E01BDD0007337C1 /* ExpenseTrackerApp.swift */,
 				8083E0FB2E01BDD0007337C1 /* ContentView.swift */,
+				800114732E08282200E97FE2 /* RecentTransactionList.swift */,
 				8083E1252E01D406007337C1 /* Extensions.swift */,
 				8083E0FD2E01BDD1007337C1 /* Assets.xcassets */,
 				8083E0FF2E01BDD1007337C1 /* Preview Content */,
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80C7DB8B2E01EFAE00EC3602 /* PreviewData.swift in Sources */,
+				800114742E08282200E97FE2 /* RecentTransactionList.swift in Sources */,
 				80B5274C2E01E72A00BE6D7E /* TransactionModel.swift in Sources */,
 				8083E0FC2E01BDD0007337C1 /* ContentView.swift in Sources */,
 				80C7DB8D2E01F1A400EC3602 /* TransactionRow.swift in Sources */,
